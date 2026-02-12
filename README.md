@@ -55,23 +55,30 @@ CREATE TABLE students (
     course VARCHAR(100),
     marks DOUBLE
 );
-'''
+
 ---
 ⚙️ Configure JDBC Connection
+
 
 Update your database credentials inside your project:
 
 String url = "jdbc:mysql://localhost:3306/student_db";
 String user = "root";
 String password = "yourpassword";
-'''
+
 Make sure MySQL server is running before executing the project.
----
+
 ▶️ How to Run the Project
+
 Clone the repository:
+
 git clone (https://github.com/Developer-Yogeshwaran/student-crud-jdbc.git)
+
 Open the project in IntelliJ IDEA
+
 Add MySQL Connector (mysql-connector-j.jar) to project libraries
+
 Run the Main.java file
+
 '''
 ---
